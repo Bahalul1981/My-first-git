@@ -1,4 +1,4 @@
-INLÄMNINGSUPPGIFT 2
+// INLÄMNINGSUPPGIFT 2
 
 let toContainer=document.getElementById("todocontainer");
 let inputFild=document.getElementById("inputFild");
@@ -6,10 +6,10 @@ let addToLast = document.getElementById("adtodo1");
 let addToFirst = document.getElementById("adtodo2");
 let checkOut = document.getElementById("adtodo3");
 
-let digitaltKösystem=[];
+let digitaltKösystem=[];// skapat aray
 
  
-
+// skapat function för knapp
     addToLast.addEventListener("click",function(){
 
         if(inputFild.value==""){
@@ -28,7 +28,7 @@ let digitaltKösystem=[];
        
        
    
-   
+   // skapat function för knapp
     addToFirst.addEventListener("click",function(){
         
         if(inputFild.value==""){
@@ -43,7 +43,7 @@ let digitaltKösystem=[];
        
 
     })
-   
+   // skapat function för "check out" knapp
     checkOut.addEventListener("click",function(){
         if(toContainer.innerText.length<=0){
             alert("There are currently no people standing in line")
