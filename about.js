@@ -46,7 +46,7 @@ let digitaltKösystem=[];// skapat aray
    // skapat function för "check out" knapp
     checkOut.addEventListener("click",function(){
         if(toContainer.innerText.length<=0){
-            alert("There are currently no people standing in line")
+            toContainer.innerHTML=("There’s currently no people standing in line")
         }
            
             
